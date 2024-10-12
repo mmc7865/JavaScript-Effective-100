@@ -10,7 +10,11 @@ if (age >= 18) {
     
 } else {
     console.log(`Sorry ${name}, you can't cast the vote`);
+
+
+    // -------------------part 2-------------------------
+
     let wait = 18 - age;
-    console.log(`But you can vote after ${wait} years`);
+    console.log(`But you can vote after ${wait}`);
     
 }
