@@ -8,6 +8,6 @@ if (gender == "male" || gender == "Male") {
 } else if(gender == "female" || gender == "Female"){
     console.log("Good Morning Mam");
 }else{
-    console.log("Wrong Imput");
+    console.log("Wrong Input");
     
 }
