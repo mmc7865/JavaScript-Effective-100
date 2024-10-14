@@ -29,7 +29,6 @@ while (ld != 0) {
     ldrev = ldrev * 10 + rem;
     ld = Math.floor(ld / 10);
 }
-// console.log(ldrev);
 if (num == ldrev) {
     console.log(`${num} is Automorphic Number`);
     
