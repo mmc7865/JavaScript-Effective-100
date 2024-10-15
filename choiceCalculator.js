@@ -21,13 +21,12 @@ do {
             case 4:
                 console.log("Division is = ",+num1/num2);
                 break;
-            case 5:
-                console.log("Exit");
-                break;
         }
-    } else {
-        console.log("Worng input");
+    } else if(choice == 5) {
+        console.log("Exit");
         
+    }else{
+        console.log("Wrong Input");
     }
     console.log(choice)
 } while (choice < 5);
