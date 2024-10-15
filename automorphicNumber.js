@@ -16,20 +16,21 @@ while (temp != 0) {
 }
 // console.log(length);
 
-while (length != 0) {
-   let rem = sqr % 10;
-   ld = ld * 10 + rem;
-   sqr = Math.floor(sqr / 10);
-   length--;
-}
-// console.log(ld);
+// while (length != 0) {
+//    let rem = sqr % 10**length;
+// //    ld = ld * 10 + rem;
+// //    sqr = Math.floor(sqr / 10);
 
-while (ld != 0) {
-    let rem = ld % 10;
-    ldrev = ldrev * 10 + rem;
-    ld = Math.floor(ld / 10);
-}
-if (num == ldrev) {
+// }
+let rem = sqr % 10**length;
+console.log(rem);
+
+// while (ld != 0) {
+//     let rem = ld % 10;
+//     ldrev = ldrev * 10 + rem;
+//     ld = Math.floor(ld / 10);
+// }
+if (num == rem) {
     console.log(`${num} is Automorphic Number`);
     
 } else {
