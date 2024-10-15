@@ -28,5 +28,4 @@ do {
     }else{
         console.log("Wrong Input");
     }
-    console.log(choice)
 } while (choice < 5);
