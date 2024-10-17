@@ -1,6 +1,13 @@
+// print X- Pattern
+
+// *       *
+//   *   *
+//     *
+//   *   *
+// *       *
 
 
-let n = 5;
+let n = 3;
 let line;
 for (let i = 1; i <= 2*n ; i++) {
     line = '';
