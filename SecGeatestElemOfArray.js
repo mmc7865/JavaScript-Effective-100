@@ -8,8 +8,6 @@ arr.forEach((e, index) => {
     if (e > arr[max]) {
         secMax = max;
         max = index;
-       
     }
-    
 });
 console.log('Second greatest number is = '+ arr[secMax]);
