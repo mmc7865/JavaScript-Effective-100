@@ -1,0 +1,24 @@
+// Move all the negative elements on left side and positive elements on right side.
+
+let array = [5, -2, 2, -4, -5, 1, -6, -3, 3, 4, -1, 6];
+// console.log(array);
+
+let left = 0;
+let right = array.length - 1;
+
+while (left <= right) {
+    if (array[left] < 0) {
+        left++
+    } else if (array[right] >= 0) {
+        right--;
+    } else {
+        let temp = array[left];
+        array[left] = array[right];
+        array[right] = temp;
+        left++;
+        right--;
+    }
+}
+
+
+console.log(array);
